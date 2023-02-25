@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char fname[20], lname[20];
+	int result;
+	printf("Enter the first name\n");
+	gets(fname);
+	printf("Enter the last name\n");
+	gets(lname);
+	result=strcmp(fname,lname);
+	printf("Result is %d\n",result);
+	if(result>0)
+	printf("Last name is smaller\n");
+	else if(result==0)
+	printf("Last name is equal to first name\n");
+	else if(result<0)
+	printf("Last name is larger than first name\n");	
+}

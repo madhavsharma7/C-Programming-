@@ -1,0 +1,16 @@
+#include<stdio.h>
+void func();
+int main()
+{
+      int a=10, b=5;
+      printf("Value of the a=%d and b=%d",a,b);
+      func();
+}
+void func()
+{
+	int a=20, b=30;
+	printf("I am in function\n");
+	printf("Value of a=%d and b=%d",a,b);
+} 
+
+

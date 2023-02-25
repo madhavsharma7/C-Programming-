@@ -1,0 +1,16 @@
+//Printing name, age 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	char name='Madhav';
+ 	int age=19;
+ 	char course='bca';
+ 	printf("My data\n");
+ 	printf("%c\n",name);
+ 	printf("%d\n",age);
+ 	printf("%c\n",course);
+ 	printf("sizeof character variable =%d\n",sizeof(name));
+ 	printf("size of integer variable =%d\n",sizeof(age));
+
+ }

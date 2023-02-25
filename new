@@ -1,0 +1,12 @@
+//Declare and initialize variable 
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char name="Madhav";
+	int age=19;
+	float weight=46.7;
+	char gender='M';
+	
+	printf("%c\n" Name:\nAge: %d \nWeight: %f \nGender: %c\n",name,age,weight,gender);
+}

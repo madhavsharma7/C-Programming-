@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ 	char name='Madhav';
+ 	int age=19;
+ 	char gender='male';
+ 	int weight=45;
+ 	printf('my data\n');
+ 	printf('%c\n',name);
+ 	printf('%d\n',age);
+ 	printf('%c\n',gender);
+ 	printf('%d\n',weight);
+ 	printf("this is my name"=%d\n",sizeof(name));
+ 	printf("this is my age"=%d\n",sizeof(age));
+	 printf("this is my gender" =%d\n",sizeof(gender));
+	 printf("this is my weight"=%d\n",sizeof(weight));
+ 	
+ }

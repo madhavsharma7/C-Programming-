@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int n1,n2;
+	char op;
+	float n2;
+	printf("\nCalculator");
+	printf("\nEnter the first number");
+ scanf("\%f",&n1);
+	printf(\n"enter the operation");
+	scanf("%c",op);
+	printf("\nEnter the second number");
+	scanf("%f",&n2);
+	switch(op)
+	{
+		case'+' : result=n1+n2;
+		printf("in addition =%f",result);
+		case"-" : result=n1-n2;
+		printf("\nIn substraction=%f",result);
+		break;
+		case"*":rsult=n1*n2;
+		printf("\nIn multiplication=%f",result);
+		break;
+		default
+		printf("Error! operator is not correct");
+	}
+	}
+}
